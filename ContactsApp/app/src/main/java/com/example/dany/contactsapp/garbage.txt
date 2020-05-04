@@ -1,0 +1,24 @@
+ @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy()");
+
+        FileOutputStream outputStream;
+
+        try {
+            outputStream = openFileOutput(FILENAME, Context.MODE_PRIVATE);
+
+            for (int i = 0; i < 4; i++) {
+                outputStream.write((mPlayers[i].getmLocation() + '\n').getBytes());
+                Log.d(TAG, "Wirting location: " + mPlayers[i].getmLocation() + '\n');
+            }
+            outputStream.close();
+        } catch (FileNotFoundException fnfe) {
+            Log.d(TAG, "FileNotFound Exception when trying to write output");
+        } catch (IOException ioe) {
+            Log.d(TAG, "IOException when trying to write output");
+        }
+    }
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChampionsAPP</string>
+    <string name="getContact">Boton</string>
+    <string name="getContactos">Encontrar Contanctos</string>
+    <string name="btnNext">Siguiente</string>
+    <string name="btnPrevious">Previo</string>
+    <string name="location_label">Posicion:</string>
+    <string name="name_label">Nombre:</string>
+    <string name="location_edit_label">Asignar Posicion</string>
+    <string name="skill_label">Habilidad:</string>
+</resources>

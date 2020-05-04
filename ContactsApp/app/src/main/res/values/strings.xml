@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ChampionsAp</string>
+    <string name="getContact">button</string>
+    <string name="getContactos">Get Contact</string>
+    <string name="btnNext">Next</string>
+    <string name="btnPrevious">Previous</string>
+    <string name="attributesView" />
+    <string name="andres_name">Andres Iniesta</string>
+    <string name="messi_name">Lionel Messi</string>
+    <string name="cristiano_name">Cristiano Ronaldo</string>
+    <string name ="suarez_name">Luis Suarez</string>
+    <string name="location_label">Position: </string>
+    <string name="name_label">Name: </string>
+    <string name="location_edit_label">Enter Position: </string>
+    <string name="skill_label">Skill:</string>
+</resources>
